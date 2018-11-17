@@ -14,7 +14,7 @@ var User = require("./client/models/userSchema.js");
 // Configure middleware
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/userdb", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017", { useNewUrlParser: true });
 
 // Routes
 
@@ -36,7 +36,6 @@ app.post("/submit", function(req, res) {
 app.listen(PORT, function() {
   console.log("App running on port " + PORT + "!");
 });
-
 
 // Send every request to the React app
 // Define any API routes before this runs
