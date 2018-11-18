@@ -1,0 +1,1 @@
+The chrome extension can be installed by going to chrome://extensions/, enabling developer mode in the top right corner, and selecting "Load unpacked". Then select the extension directory.
